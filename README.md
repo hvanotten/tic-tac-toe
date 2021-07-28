@@ -28,7 +28,7 @@ Learned deeper knowledge of DOM manipulation, HTML structure, CSS and JS functio
 The Odin Project
 
 Live Preview
-[Tic-Tac-Toe]()
+[Tic-Tac-Toe](https://hvanotten.github.io/tic-tac-toe/)
 
 How to Play:
 [Wikipedia's Tic-Tac-Toe article](https://en.wikipedia.org/wiki/Tic-tac-toe)
