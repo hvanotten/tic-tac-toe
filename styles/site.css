@@ -1,0 +1,108 @@
+/*CSS hex */
+:root {
+    --color1: #E0DACE;
+    --color2: #31E000;
+    --color3: #3A506B;
+    --color4: #1C2541;
+    --color5: #0B132B;
+    --font-family: 'Poppins', sans-serif;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: var(--font-family);
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  font-family: var(--font-family);
+  background-color: var(--color3);
+  min-height: 100vh;
+}
+
+header {
+  color: var(--color1);
+  text-shadow: 4px 4px var(--color5);
+  font-size: 30px;
+  font-family: var(--font-family);
+  padding: 25px;
+}
+
+button {
+  font-family: var(--font-family);
+  font-size: 1.25em;
+  outline: none;
+  width: 120px;
+  height: 30px;
+  margin: 40px;
+  border-radius: 10px;
+}
+
+#game {
+  margin: auto;
+  width: 402px;
+  padding: 60px;
+}
+
+#tic-tac-toe-board {
+  display: grid;
+  height: 400px;
+  width: 400px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: var(--color2);
+  margin: 32px 0;
+}
+
+.actions {
+  display: flex;
+}
+
+.announcement {
+  padding-left: 55px;
+  font-size: 3em;
+  color: #E0DACE;
+  text-shadow: 4px 4px var(--color5);
+  font-weight: 800;
+}
+
+.col-1 {
+  justify-self: start;
+}
+
+.col-2 {
+  justify-self: center;
+}
+
+.col-3 {
+  justify-self: end;
+}
+
+.row-1 {
+  align-self: start;
+}
+
+.row-2 {
+  align-self: center;
+}
+
+.row-3 {
+  align-self: end;
+}
+
+.spacer {
+  flex: 1 0 0px;
+}
+
+.square {
+  background-color: white;
+  height: 130px;
+  width: 130px;
+}

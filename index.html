@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+<!-- styles -->
+    <link rel="stylesheet" href="styles/site.css">
+
+<!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <h1>Tic Tac Toe</h1>
+    </header>
+
+    <div class="game">
+        <h1 id="game-status-message" class="announcement" ></h1>
+
+        <div id="tic-tac-toe-board" class="tic-tac-toe-grid">
+            <div id="square-0" class="square row-1 col-1"></div>
+            <div id="square-1" class="square row-1 col-2"></div>
+            <div id="square-2" class="square row-1 col-3"></div>
+            <div id="square-3" class="square row-2 col-1"></div>
+            <div id="square-4" class="square row-2 col-2"></div>
+            <div id="square-5" class="square row-2 col-3"></div>
+            <div id="square-6" class="square row-3 col-1"></div>
+            <div id="square-7" class="square row-3 col-2"></div>
+            <div id="square-8" class="square row-3 col-3"></div>
+        </div>
+
+        <div class="actions" id="actions">
+            <button id="new-game" class="action" disabled>New Game</button>
+            <div class="spacer" id="spacer"></div>
+            <button id="give-up" class="action">Give Up</button>
+        </div>
+
+    </div>
+    <script src="scripts/gameboard.js"></script>
+
+</body>
+</html>
